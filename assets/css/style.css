@@ -84,6 +84,13 @@ h3{
 
     
 }
+.row-contact{
+    margin: 20px;
+}
+textarea{
+    height: 300px;
+}
+
 .footer {
     position: absolute;
     bottom: 0;
