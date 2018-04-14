@@ -1,7 +1,6 @@
 html {
     position: relative;
     min-height: 100%;
-    /* background-image: url("../images/dust_scratches.jpg"); */
 }
 
 #mycustomnavbar{
@@ -10,7 +9,7 @@ html {
 }
 
 .navbar-collapse{
-    /* background-color: #4aaaa5; */
+   
     position: relative;
     background-color: #ffffff;
     padding: 15px;
@@ -20,7 +19,6 @@ html {
     border-width: 5px;
 }
 .navbar-brand-custom{
-    /* background-color: #ffffff; */
     background-color: #4aaaa5;
     position: absolute;
     z-index: 2;
@@ -31,6 +29,10 @@ html {
     border-color: #cccccc;
     border-width: 5px;
     color: white;
+}
+
+#navbrand{
+    color:white;
 }
 ul li:not(:last-child) {
     border-right:1px solid #cccccc;
@@ -56,6 +58,7 @@ body {
     margin: 40px;
 }
 
+
 h1 {
     color: #4aaaa5;
     margin-bottom: 20px;
@@ -65,6 +68,7 @@ h1 {
 .bio-text{
     margin:0px;
     text-align: justify;
+    width: 100%;
 }
 .col-xs-12 .col-m-6 .col-lg-6{
     margin: 20px;
@@ -75,6 +79,16 @@ h1 {
 .img{
     position: relative; 
 }
+
+
+#rotimg{
+    border-radius: 25px;
+}
+img#rotimg:hover{
+    transform: rotate(360deg); 
+}
+    
+
 h3{
     position: absolute;
     left: 15px;
@@ -85,7 +99,8 @@ h3{
     
 }
 .row-contact{
-    margin: 20px;
+    margin: 20px 60px 20px 60px;
+    
 }
 textarea{
     height: 300px;
